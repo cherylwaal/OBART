@@ -1,0 +1,28 @@
+Package: OBART
+Type: Package
+Title: Ordinal Bayesian Additive Regression Trees
+Version: 1.0.0
+Date: 2024-07-13
+Authors@R: c(person('Xinru Wang', role=c('aut', 'cre'), 
+  email='xinruwang@u.duke.nus.edu'),
+  person('Bibhas Chakraborty', 'Tanujit Chakraborty', role='aut'))
+Author: 
+  Bibhas Chakraborty [aut],
+  Tanujit Chakraborty [aut],
+  Xinru Wang [aut, cre]
+Maintainer: 'Xinru Wang' <xinruwang@u.duke.nus.edu>
+Description: Ordinal Bayesian Additive Regression Trees (OBART) for ordinal outcomes.  
+License: GPL (>= 2)
+Depends: R (>= 2.10), nlme, nnet, survival
+Imports: Rcpp (>= 0.12.3), parallel, tools
+LinkingTo: Rcpp
+Suggests: 
+    MASS,
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+NeedsCompilation: yes
+RoxygenNote: 7.2.3
+Encoding: UTF-8
+Config/testthat/edition: 3
