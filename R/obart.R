@@ -22,7 +22,7 @@
 #' @param oldgamma Initial value of cutoff values.
 #' @param oldz Initial value of latent continuous variables.
 #' @param printevery As the MCMC runs, a message is printed every printevery draws.
-#' 
+#' @param offset The offset value.
 #' @export
 
 obart=function(

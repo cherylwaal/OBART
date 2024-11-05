@@ -1,28 +1,10 @@
 #' predict.obart
 #' 
 #'
-#' 
-#' @param x.train Description of the first parameter.
-#' @param y.train Description of the second parameter.
-#' @param x.test Description of the second parameter.
-#' @param xinfo Description of the second parameter.
-#' @param usequants Description of the second parameter.
-#' @param cont Description of the second parameter.
-#' @param rm.const Description of the second parameter.
-#' @param k Description of the second parameter.
-#' @param power Description of the second parameter.
-#' @param base Description of the second parameter.
-#' @param rho Description of the second parameter.
-#' @param ntree Description of the second parameter.
-#' @param numcut Description of the second parameter.
-#' @param ndpost Description of the second parameter.
-#' @param nskip Description of the second parameter.
-#' @param oldgamma Description of the second parameter.
-#' @param oldz Description of the second parameter.
-#' @param mc.cores Description of the second parameter.
-#' @param nice Description of the second parameter.
-#' @param seed Description of the second parameter.
-#' 
+#' @param object Returned from previous BART fit.
+#' @param newdata Matrix of covariates to predict $y$.
+#' @param mc.cores Number of threads to utilize.
+#' @param openmp Logical value dictating whether OpenMP is utilized for parallel processing. Of course, this depends on whether OpenMP is available on your system which, by default, is verified with mc.cores.openmp.
 #' @return What the function returns.
 #' @export
 
