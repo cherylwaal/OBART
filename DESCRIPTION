@@ -11,7 +11,11 @@ Author:
   Tanujit Chakraborty [aut],
   Xinru Wang [aut, cre]
 Maintainer: 'Xinru Wang' <xinruwang@u.duke.nus.edu>
-Description: Ordinal Bayesian Additive Regression Trees (OBART) for ordinal outcomes.  
+Description: Ordinal Bayesian Additive Regression Trees (OBART) for ordinal outcomes. This package is based on the original GPL-3 licensed BART package by Sparapani, Spanbauer, 
+    and McCulloch, with modifications to support ordinal Bayesian modeling. For details on 
+    the original BART methodology, see Sparapani et al. (2021), “Nonparametric Machine Learning 
+    and Efficient Computation with Bayesian Additive Regression Trees: The BART R Package,” 
+    Journal of Statistical Software, 97(1), 1–66. doi:10.18637/jss.v097.i01.
 License: GPL (>= 2)
 Depends: R (>= 2.10), nlme, nnet, survival
 Imports: Rcpp (>= 0.12.3), parallel, tools
